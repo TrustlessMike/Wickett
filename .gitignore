@@ -1,0 +1,15 @@
+node_modules/
+lib/
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+.env*
+!.env.example
+*.pem
+*wallet.json
+*service-account*.json
+Resources/GoogleService-Info.plist
+.firebaserc
+*.log

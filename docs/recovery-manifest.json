@@ -1,0 +1,951 @@
+{
+  "ios_commit": "603c3e59f8a415c3607dc883ac1436b5c7733388",
+  "backend_origin": "surviving payment modules in local Mimic checkout; not a historical snapshot",
+  "files": [
+    {
+      "path": "Package.resolved",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ce791617b14f518fcc3043b2be1962a60d02fdd03e3fdf3949e4613c001965d1"
+    },
+    {
+      "path": "Package.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "521f3efdcb89f4ff2b8d76fa93c22d765b952ee095f9c6d05cb7301a28a0cf7d"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/1024x1024.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "754b2deca3b0dc0e1959cbb71cda39db48a5e0aa86c50b6b059758735719ff58"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/20x20@2x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "eca1651c43c95b1b8ee2776f5f3d08946b0a431798f38359f9b2ed5f1b85bdae"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/20x20@3x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "4103b015ec95571516605daa64652365a58e3a0f75457a2a140138273c6d9f86"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/29x29@2x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7d772087cadcd6c4428791e70d889243b0251117ab0c9e3ce8db9b14fd9b3d17"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/29x29@3x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "48a9a54a824bbf1c36124bbd5d460b0e6f29b8b180ac1739ee1a9df744aff4dd"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/40x40@2x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "67d679560d4eeed8d3eea0d861bab2ef81b64cc3f3318f0769436bf0e169fd50"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/40x40@3x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "8d1057a97f03700d6dd0fafbf8cc0fd83d812c4670033248affbe1a404ae05c8"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/60x60@2x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "8d1057a97f03700d6dd0fafbf8cc0fd83d812c4670033248affbe1a404ae05c8"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/60x60@3x.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7d907bd28c047376ad47480b4b6aec51febd9f5ab5b1c65bb49d0eeab0d25538"
+    },
+    {
+      "path": "Resources/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "db38b13b5c49d0bf9f2ed8298ac16ee6405761d56639c413d5c43c444e188eac"
+    },
+    {
+      "path": "Resources/Assets.xcassets/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "path": "Resources/Assets.xcassets/Logo.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "1267240c4465e32f6dbb636b6af7214ba81a8bf477b08cd1e7cf82f186183bf5"
+    },
+    {
+      "path": "Resources/Assets.xcassets/Logo.imageset/Logo.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "fba977fdbeca21bacdd5d9212486083593939d28f96bc2e9a450f77450f6fef0"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenAAPLx.imageset/AAPLx.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7909e20f829935d52b2f917df52c87be05e82660f40c7af859658e32d18cf6ba"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenAAPLx.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9288ad12f889c2596492fc9f9d8000c75c66d4f7e4ffd11e2e7fd7b3df3202f1"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenAMZNx.imageset/AMZNx.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f1f67d7cbd4250c86b1242336b409ad8e55b904466c9cd8729b1970b795561df"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenAMZNx.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "bc83ea4aa6d02d6a056f7ff0dfdc972d8ce1101692c110ef69aff80da4642e1b"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenBONK.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f0bece9b77c6a0dfd8361588a5c47ee3b73098a44586bac96e245d27d5299cd9"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenBONK.imageset/bonk.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9a6c824d86d83c9f6be4a2b5ebb2e73591a6e64e057103fa02fcca1bf23d7b35"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenGOLD.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "2fda5df7e4fd3543954cfd8aad9953e607ceabce3116cc235da703b78da079bb"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenGOLD.imageset/GLDx.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "105ce746847cd1c93477c0bfdcf7c002563de073c064c160c2f4784586a6a8a7"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenJUP.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "746407587df3fe0a927eb50f394b53e94d52c6b2a07ded2245600d3428d7ce04"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenJUP.imageset/jup.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "5f460c59d968c0af5a4dee3e19c5e51f0298f15ae3fac907e9e4c0904bec7506"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenMSFTx.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ed95a6018c16df9457c00f355b8d6aa92cbfe339e0202ef91fe172865108020b"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenMSFTx.imageset/MSFTx.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "10a8f89c123860d7655f42d27399340c7be7d5677db4cc8e4dfd854efb6eccb2"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenNVDAx.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "d67933563082969c870cc67226779dd24557e9ec8d5389f674c95ce3e49630a1"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenNVDAx.imageset/NVDAx.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "02aebc7fa342b45303f3a188420fe9c25ebec7124dd6dd302f1e06df9f31489c"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenRAY.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "6b179e264a935128cf419a35c0195c17791f32574e3dc5b9389385d0c8b46c54"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenRAY.imageset/ray.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "4f19e48447cfb97915021bfa277349d9aa784198261f777a00d8fdf8a1d43fe1"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenSOL.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9ad82dd056f833a99047ba817b2b08134af3585bf041b94e0ff356ce80d32f22"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenSOL.imageset/sol.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "943c48e760ec717f55363835067d501ff4bd6825a29732a18955e141ba536602"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenTSLAx.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e56340f8a8881c54ccbdb0011e0d24081c25dee78c08eb42cb869830ffa6d3ea"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenTSLAx.imageset/TSLAx.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "eb05abd300814ad10cc1b63d1c6f22f03af9ddb46227706c585360e19653df28"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenUSDC.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "17b9438da6a86d8ef232932e6a72f810b694464dba03a19da6c9b02b17d32ae3"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenUSDC.imageset/usdc.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "6d14601d0b1109046e366592b8c0f256ffb075f69180b65dddd97ae665d49f9e"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenUSDT.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "92e7e419b16225daebfb1364b484e8a227c26d864d8850a212178122b0302c4a"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenUSDT.imageset/usdt.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "1c2ecfc8c08a821a4839f2ae0df1d8796a8df233939b537b4e26514fa4f91196"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenWBTC.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "dbf0e5438aab8bcdb678bf3a18eca4b773467c191a47df50b645cb45d7015a5e"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenWBTC.imageset/wbtc.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "4b2b394a8a1a3e370969a74e9d2cc0cd04f336f40ce726f682609eb0577bf3ad"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenWETH.imageset/Contents.json",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "b73b4fc8a631b53a9968de34b4ad552e8ab8e2d1a8411e38ed6651326baa0e1d"
+    },
+    {
+      "path": "Resources/Assets.xcassets/TokenWETH.imageset/weth.png",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "2ac70e552f096927b8d5758abc58b810df6d86a243605f9f97c49c18cb472959"
+    },
+    {
+      "path": "Resources/Info.plist",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0adf6064b2e8111f19c7029c9825c9cd052572b2d25da6eb209ad7be9969ca86"
+    },
+    {
+      "path": "Resources/LaunchScreen.storyboard",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "32cb106ed66fbd6a43dbc5dbbe036f4019595e4a938e123ae3fe104024f3e105"
+    },
+    {
+      "path": "Resources/Wickett.entitlements",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "97704a8960b4facceef54397a08fb5d0a456247c3627359215aa2a27df22656c"
+    },
+    {
+      "path": "Sources/Wickett/App/ContentView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "95be597cc007a7bb57ede95c3505b388f3aa263e48efebe9f659039c1e921497"
+    },
+    {
+      "path": "Sources/Wickett/App/WickettApp.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e28c96c6e11851560245bbff37bf6cf787706debcd3360a4ff46700c4fa6f9ef"
+    },
+    {
+      "path": "Sources/Wickett/Core/Authentication/AuthCoordinator.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "828e9ba0d8505510850e38da018e1cdbb89525529bff514d2c4fd9ec4a89daf9"
+    },
+    {
+      "path": "Sources/Wickett/Core/Authentication/Services/AuthenticationService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9d3cd4fa0cf86ae8fdda06b7ccba2143bd7f96ba60dff5d0e3d6e82d4120763a"
+    },
+    {
+      "path": "Sources/Wickett/Core/Authentication/Services/HybridPrivyService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "59a785600efcccd0bf5fd83874047ba0e06973948399c674a63c11d360fe358f"
+    },
+    {
+      "path": "Sources/Wickett/Core/Coinbase/Models/CoinbaseApplePayOrder.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f70a1e6b42f625dc9f8b5a688528163846c05c8d83f49aebff5c4a54b573137f"
+    },
+    {
+      "path": "Sources/Wickett/Core/Coinbase/Models/CoinbaseOfframpSession.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "31ea618166f6c02212c5a207c5804874e73033d30d5d7eec610257bb2663da54"
+    },
+    {
+      "path": "Sources/Wickett/Core/Coinbase/Models/CoinbaseOnrampSession.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "024eb8c0672a6ec740ee48963c2766a6b349a7e5ce1868982381cc98c3acc77e"
+    },
+    {
+      "path": "Sources/Wickett/Core/Coinbase/Services/CoinbaseService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e36dae19dac39cc9f84eeeccf0823712688a39605b931e15ce7d81f9cc2fe132"
+    },
+    {
+      "path": "Sources/Wickett/Core/Configuration/AppConfiguration.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0d71e1f8973f27a4322eab9c71f36a1a708e8b19d29c07af30ee962535bc4d2b"
+    },
+    {
+      "path": "Sources/Wickett/Core/Configuration/RemoteConfigManager.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0c2d86fd10615e049b945de2893924b3e547e4782e31c0fbb1e0d893849e4bd7"
+    },
+    {
+      "path": "Sources/Wickett/Core/Delegation/DelegationManager.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9d2951053a1d2f75339ab86eca324ce3e79eb8684576ffec14f67137cf38cc07"
+    },
+    {
+      "path": "Sources/Wickett/Core/Firebase/FirebaseCallableClient.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "19ee71632cc34fbfc36b41f409a4ed71f54a6a82cfc1a617565caabec74f7abd"
+    },
+    {
+      "path": "Sources/Wickett/Core/Firebase/FirebaseManager.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "01ef29f2ab652f4bc234fdbbb20c9516b09867f2ebcd851fd239328b9d883b59"
+    },
+    {
+      "path": "Sources/Wickett/Core/Navigation/CustomTabBar.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "d32408d7792c7214d46348aef6082748d66e6204ccb8b55e7a516b52c690b795"
+    },
+    {
+      "path": "Sources/Wickett/Core/Navigation/MainTabView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9861005f2bd95ec35f2bd52b396893abceff93e8f2bbd27ba44dcf9467554b5e"
+    },
+    {
+      "path": "Sources/Wickett/Core/Onboarding/NotificationManager.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "cac280283be97d03ae573408bca9c8eb81d33545bccec19832729ac40fcf7927"
+    },
+    {
+      "path": "Sources/Wickett/Core/Onboarding/OnboardingManager.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "6fa3f1303b42efeb6ce041b53de4c25034872d634269e1ac7a3b95c97d18504e"
+    },
+    {
+      "path": "Sources/Wickett/Core/Requests/QRCodeGenerator.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f47d932d6a4bbe66fd4aa30d8ff731b79a81fd9d41d97211a07becd970f1b25f"
+    },
+    {
+      "path": "Sources/Wickett/Core/Requests/RequestService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "1fbb54bdcde0a86d1bb562a60904544e0d3f9cc7f2f15e8ab260bf1c37dab319"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Models/JupiterQuote.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "296810b19b89d96a721fd5c9ef04d19d1f21a9fae87f53b953b9fe63e061ee02"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Models/SolanaToken.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e2b04366e43cc8c09ca8696b4bb37cf0c32856433b20187406d5ba9d3e9baf80"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Models/TokenBalance.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7b348890cae75b5569effc78c8293e56894e3c2261e42594fdad361a07d326aa"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Models/WalletActivity.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "8f8d853d1246cc9bc8d0e73a8a2e15a47317f1eac737573b2fb0a2a863a67def"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Services/HeliusService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "422877c5872fb39b263aadbbd4fced7f824a0ed804ac4715539dadc4c632eb97"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Services/JupiterClient.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "12d70ec189ddbf924ea90ce4cc13e73aeb1b9edf3ea147117f34d2f4898d7c69"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Services/PriceFeedService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "74486f8f7806fa42eeed802666e135e42d9b7157955ab0913e5261540ad4e8fa"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Services/SolanaSigningService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f1a23ebc3bfd312384561e73c87eb1486560fa99dbc34d474dcd30d765f0afe8"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Services/SolanaWalletService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "1cab10c433a061bd3deba3241ac836891b04de8828d0478751234ae6b23112eb"
+    },
+    {
+      "path": "Sources/Wickett/Core/Solana/Services/TokenMetadataService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ba314837141b3c14cb1e560c55b213752df5e390d4fdfa4f8e7d5720490f3236"
+    },
+    {
+      "path": "Sources/Wickett/Core/Theme/BrandColors.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "89fb34ebff7cb691406154330613d506ddec7ea70ed2feed1c84d6f51827e052"
+    },
+    {
+      "path": "Sources/Wickett/Core/Theme/ThemeManager.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ff9f6396f054c6f8aa70e2584c8b4849d5343dc5db113789dfedbf66e59f21f5"
+    },
+    {
+      "path": "Sources/Wickett/Core/User/Services/UserPreferencesService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "28c5fd9d39d925ff9b3507807b7d7c92fa67a79aab72b429a5b182f1f871d044"
+    },
+    {
+      "path": "Sources/Wickett/Core/User/Services/UsernameService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7520a9672bdfa2bf46719eb8eec947e0dc24a18e0d381ec01b1543a1b016917b"
+    },
+    {
+      "path": "Sources/Wickett/Features/Activity/Models/ActivityItem.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0ef41d6211a6c551f01da5e457cf520940317c8331ce32c160c336a817c81e36"
+    },
+    {
+      "path": "Sources/Wickett/Features/Activity/Services/ActivityService.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "d41cde594c50cb2f753c2f8af1a896697ea6f3fdf1bdeca11d034c43e780ffec"
+    },
+    {
+      "path": "Sources/Wickett/Features/Activity/Views/ActivityView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "61c1360ce33df4b2ea6e3ad8acb127afe69e07be9e329fcfc5433e3697dbd8df"
+    },
+    {
+      "path": "Sources/Wickett/Features/Auth/Views/LoginView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "48460ee44041dd2c52a01bbd528fa75ec478bdee195dce8cefa8a87b48a565b8"
+    },
+    {
+      "path": "Sources/Wickett/Features/Coinbase/ViewModels/CoinbaseOfframpViewModel.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "fc910d5efc0db03232a902d36f3ac4c625a8dff134057eb2ca1858399efffd8b"
+    },
+    {
+      "path": "Sources/Wickett/Features/Coinbase/ViewModels/CoinbaseOnrampViewModel.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "00683564c5f5276d826255bb1719e957b85db7d9ef559c3ecd2452cb549ad146"
+    },
+    {
+      "path": "Sources/Wickett/Features/Coinbase/Views/CoinbaseOfframpView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "971723b41932919caeebaa407af85b2c7a3e517fadb822264cb73eae79479ad3"
+    },
+    {
+      "path": "Sources/Wickett/Features/Coinbase/Views/CoinbaseOnrampView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "397feaf701bef98fc7c8efe56b49b6e8921c2711d5a2919b8ce912b38909c2fa"
+    },
+    {
+      "path": "Sources/Wickett/Features/Coinbase/Views/Components/CoinbaseSafariView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "602336b933f50ec7b08b08f1dfcb378b9b54341a9d62ee7850ff89f0b7271f89"
+    },
+    {
+      "path": "Sources/Wickett/Features/Coinbase/Views/PaymentMethodSelectorView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "16eb124ce5e72fc6a4ad5228ce2ec6433416b2e782530bf246f87218bd0bacc3"
+    },
+    {
+      "path": "Sources/Wickett/Features/Home/Views/EnhancedHomeView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7a626e4019e9e52bcf37e8b146fd5d02b78a6fd467c22ec9b094dc8e26c4b2dc"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Components/WalkthroughSlide.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f48e33451aae974135742684eee98ad7957bb25faf7612a8fcd1aff3ba4e6fe7"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/DisplayNameSetupView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "26bb5d49c3d859640641831f119667cb10f94e88d6e6e20ae8cecfc46b9ad248"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/OnboardingCoordinatorView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "000dc7e3482309abf6a2191881c05d57f9f7b45d176fe3ca4ebb705d1f4f7333"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/PreferencesSetupView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "d80727cdb6027cb20f5d15ea2b7ee77e292a454b99a85b69e4153a7b318ee855"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/TermsAcceptanceView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "af63be55a12d5636a45d58bfdd6a098580e340c7122b9493e427d396d16e3e3c"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/UsernameSetupView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ebdb5a5d24745fec872c71663c226b00f31ef087a0e1df5aed3a9253b7d5232d"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/WalkthroughView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "29d215cdf9285ff79ca01bdacd494480fe321cec9260c5baae71cadc3a5fd997"
+    },
+    {
+      "path": "Sources/Wickett/Features/Onboarding/Views/WelcomeView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "35d5940b6f8ddfb4f04bef94693fd376ee0cb042c4cc2990185afd9d29b9a191"
+    },
+    {
+      "path": "Sources/Wickett/Features/Request/PaymentRequestViewModel.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "b3984ddb10f20a7ebe08ca00888bb680933d124626dbc0eecc50a9271a7f60e7"
+    },
+    {
+      "path": "Sources/Wickett/Features/Request/Views/CreateRequestView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "babff37543f93c07da6a88381be44290f3617b596f2842dd29078e685c23f3dc"
+    },
+    {
+      "path": "Sources/Wickett/Features/Request/Views/RequestCreatedView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "61f6dbb183439c12b88d2f8d9f40c59336fbc933b4d9b3bc1fcc588b7cd01ca8"
+    },
+    {
+      "path": "Sources/Wickett/Features/Request/Views/RequestListView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "860b9aa07dae500e23b5ff38f3c0c3f5aed8f32fbbabad2c1d4054f2f52741f1"
+    },
+    {
+      "path": "Sources/Wickett/Features/Send/Components/AmountInputField.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e1f14adae18d37a04d97e8fc1c66f6c55e51f8fd885c481141073894e0904ac8"
+    },
+    {
+      "path": "Sources/Wickett/Features/Send/Components/RecipientSearchField.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "954971ab3233b9c9891858fe6cc95b982fbfaa863b59f27566c835ca370ed9aa"
+    },
+    {
+      "path": "Sources/Wickett/Features/Send/SendView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0b248658d316e23d1eefd3b97fb8cc276c491c9d9e24febe671c0bb61bbddd33"
+    },
+    {
+      "path": "Sources/Wickett/Features/Send/SendViewModel.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "1c32e62da763622d80ecfedac9d2a21cb9610fb579aa7686bdf920b5ffdfc73a"
+    },
+    {
+      "path": "Sources/Wickett/Features/Settings/Views/AutoConvertSettingsView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "bd4c06cf1cd0e2b9df7abcaa2cd37c4750e1a7762a502307a1463c83e8fe919c"
+    },
+    {
+      "path": "Sources/Wickett/Features/Settings/Views/PaymentPreferencesView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "fe31c9f1ef0b93e1a6343d0274eae740edb86a428df1a9deef85f9aae22b7680"
+    },
+    {
+      "path": "Sources/Wickett/Features/Settings/Views/PortfolioAllocationView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9ded56237eae73ef7eece139f0d066fbf8dd87a0fc755282c6c852206193a550"
+    },
+    {
+      "path": "Sources/Wickett/Features/Settings/Views/SettingsView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "85b25af7fed9a09ad60a26145291195af694e9f94e6f73e64749c4edde7db1bb"
+    },
+    {
+      "path": "Sources/Wickett/Features/Swap/SlippageSettingsView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "c02ac37ac1ccff01d3a7fbf0aa6f76a35cd088099a360a5030f06e7a02277b66"
+    },
+    {
+      "path": "Sources/Wickett/Features/Swap/SwapView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ea928957e3ea6a522b3215da6f4315cf230b200f0f89db66e14b12e16e09e32c"
+    },
+    {
+      "path": "Sources/Wickett/Features/Swap/SwapViewModel.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "77b8fbae2a3931d02c94ea8ea431cc3e29719da29a82439862584a4f5484d374"
+    },
+    {
+      "path": "Sources/Wickett/Features/Wallet/Views/WalletView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "5c541a17fc033bc3c6e2be73b58e15a3ad08887968e6a846d3ac7b5d3942ffe5"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Components/ConfettiView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ec6b4d69b19e14e555e0e815930086c1c23650dbdedcd2da0a04c196595d08f9"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Components/GameUIComponents.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "9b93dfec2d662a9b7776ab33b0e535ada8d3c868598f415effa113f1e7b87d62"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Components/LoadingOverlay.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "d4f86b94064a8dfadcac2515226e0971f2db1f00db0fbfcfc3c1e15687ab9dfe"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Components/LoadingView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "c6e0d245d36b35dda4d6c356a404a1b1ef2110bdb0e8c041fb44c8e7662e18a5"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Components/SkeletonView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "39eadcab6bcf971115d442ecb5088580534eeeadf5d73ebb8901fb9b630fc464"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Components/TokenImageView.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e940cf35927aa7b9f715478f105df5e6bb56ea3e299a96965c1ddc1f9dc7edaf"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/AccountBalance.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "38e3a1c652806f03f41821396aaae887ebd83b3d30b1f56bb46ee0d23afcb328"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/AuthError.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "730d955776a252da6a742fee1bdc852ad76cc7ac78c58237d5cab9d2074c9430"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/DelegationConfig.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "e83bfd2b55d5788a1d6ad6dfb7bb9b06c32d78d75e8a569f867bf807e2d82c80"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/OnboardingState.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "48ffe956a3cf486c9ac5a620168b60755e390d45ff8dbd9240bfc1915d2714fb"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/PaymentRequest.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "33b8c46febb429e4f23b161f047eabcacb5a84c51b7a1f1a79da1a9635c5a538"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/ReceivedRequestModel.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "f845a249ef1acfa5480d77d037c67951fdfa3c917fd2ea37e8b3ca12fa72919f"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/RecentRecipient.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "8cb2dfcfcdc71d5d1123278c4b8db37729f76f2b6af861a008a511f528687433"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/Transaction.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "c77f5e50ac7abeb6b69d5088a93f1a47795e6db0e8938a199e26fe338f79d86b"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/TransactionState.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "a695ada2534e2cabbb402cbd269037b6adcfec640df3a6a706ae445d75dbf921"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/User.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "ea96fb73ebe08a2de8411ebf9e9c92122b578240ebf2aa836ca5b0d7d690bb75"
+    },
+    {
+      "path": "Sources/Wickett/Shared/Models/UserPreferences.swift",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "466dc53393911be75f109ffb521a12199579cfbf4d9550f56513b723e526cd0c"
+    },
+    {
+      "path": "Wickett.xcodeproj/project.pbxproj",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "0af6da0f732935f59e019d26cf35d80813033141a379e60778fc83805f0a5271"
+    },
+    {
+      "path": "Wickett.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "Wickett.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "d944a0e1f1f89edce96099f8ad5b0e5983a418e62f730854894d401ed3f3b002"
+    },
+    {
+      "path": "Wickett.xcodeproj/xcshareddata/xcschemes/Wickett.xcscheme",
+      "source": "git:603c3e59f8a415c3607dc883ac1436b5c7733388",
+      "sha256_original": "c1e193312c908d8fe46a564fa4b6797170244952155dde6b0efa1958272c229a"
+    },
+    {
+      "path": "functions/src/requests/get-payment-request.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "983d865a783f3c4718a6a2b161127f8527217dc62ac9eec2105e5af387ca2a1d"
+    },
+    {
+      "path": "functions/src/requests/search-users.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "4708fa8fcd7a378dabb1d3dbbb78e9c8be11b92d9e4dba2df94d821340b7a2db"
+    },
+    {
+      "path": "functions/src/requests/process-payment-request.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "3399f3a54003b19f42cbb51f9c35aad2d5ced3e0a40103a3d1a9f2a926fd7e7a"
+    },
+    {
+      "path": "functions/src/requests/get-my-requests.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "b9a1b6572cd4f24ec412adda65604de54fe3d46199974c9afe1322e0ad3d3795"
+    },
+    {
+      "path": "functions/src/requests/types.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "199ae46155d7455bab44f640ce69cabb64b420cf9c6b7ec446a493d2039828fb"
+    },
+    {
+      "path": "functions/src/requests/reject-payment-request.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "4b9c1317bdf0523fc0835bc40b91ee9106188a264e0d79788303c4636522abdd"
+    },
+    {
+      "path": "functions/src/requests/create-and-send-fiat-request.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "032e7503ae7bab05b2a806d8c1d0a9998ad169b4f0a500a6a447a09a73186287"
+    },
+    {
+      "path": "functions/src/requests/fulfill-payment-request.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "7fced67f6c3e7c50c98c8dde6847a16687c7abffb669da1acecb4db1bb4ac211"
+    },
+    {
+      "path": "functions/src/requests/get-received-requests.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "6fd1329ec7512f7372fa9a94bd18a84d49154159a525fdcc8c618a425a3d409f"
+    },
+    {
+      "path": "functions/src/requests/create-payment-request.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "b9e1df2b22ba2cfca986ef278a351bb3b0dcb3a97d34b357f223b53174bc0892"
+    },
+    {
+      "path": "functions/src/transactions/broadcast-signed-transaction.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "2d1cafaa403293f214af3be70d47d09c57c17d0ac6f84fbd95d05c51544b3c36"
+    },
+    {
+      "path": "functions/src/transactions/sponsor-sol-transfer-v2.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "6769a9c87b6335231ef5dcf04e3769fe883e2c818b176ecc87addb0a01dbdd25"
+    },
+    {
+      "path": "functions/src/transactions/sponsor-jupiter-swap.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "6e0dd8ca1ffd4dc45c4987ed62fe0d8a0675af35f4610d45ea861f52c6b39d3d"
+    },
+    {
+      "path": "functions/src/transactions/sponsor-spl-transfer-v2.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "7336b3ad1bf86209b0a424ba86a941db19179c18aa1c7453c75417aaa4dfcfca"
+    },
+    {
+      "path": "functions/src/coinbase/get-transfer-status.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "18bdc18044c02a870ad707a412087076495b40d0764874b2211147dcf542e797"
+    },
+    {
+      "path": "functions/src/coinbase/create-apple-pay-order.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "f5aa8ed768d85146a391f639e8c1840229eba5898871e0199ebc28701d50fbb5"
+    },
+    {
+      "path": "functions/src/coinbase/create-offramp-session.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "66551870898511289034266e62c752c9b9fb73ef9d5181725f594a8e68a613f1"
+    },
+    {
+      "path": "functions/src/coinbase/coinbase-client.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "b5ff4ea66491430518da950b1a9831f85b24bbcd36fe24e59440d9bc56ccfc5f"
+    },
+    {
+      "path": "functions/src/coinbase/coinbase-webhook.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "531f9ca09c817684fa90498c296b1a9783b0c2060668f125ce46a672f6cd307c"
+    },
+    {
+      "path": "functions/src/coinbase/create-onramp-session.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "19d9deff6f4128453f5d3cd4eca10316e912d37fbbc0b9298ded380b7d9ec852"
+    },
+    {
+      "path": "functions/src/delegation/get-delegation-status.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "6e3f6c8fe2171c639c4e0f1de68836568ce083cf6fecacde46ccc9379a7d1991"
+    },
+    {
+      "path": "functions/src/delegation/approve-delegation-v2.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "3b46659097e3f15d37b57cc8c533c0db0056b3ac83b96515b48e305638a7c2b7"
+    },
+    {
+      "path": "functions/src/delegation/confirm-delegation.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "c60b4b393f08a27961961c8ab162c3b55a47b2436c802a7edccc21b740d1decd"
+    },
+    {
+      "path": "functions/src/delegation/revoke-delegation-v2.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "87b246a2201051e5089d5c2ce48a0a5b1f0e8d8fbb8e731c2d512a26caaf1e14"
+    },
+    {
+      "path": "functions/src/auto-convert/execute-auto-swap.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "2bb9ed9123c76f1e5d90c1692128d6ba0188b040df6efb01f177cbcc7b8f74a8"
+    },
+    {
+      "path": "functions/src/webhooks/helius-payment-webhook.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "e741b550fb71ee1d740b131e9d24e421325d7c267ddfd24ffdecac28f2e75a5e"
+    },
+    {
+      "path": "functions/src/monitoring/fee-payer-monitor.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "0cf1c8a1f19a120787668ee5732c02b3d75af67ebfd4489dc547ac7005acf6c3"
+    },
+    {
+      "path": "functions/src/users/check-username-availability.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "7e077996152fa1f285d763319f32b9e04fb051269d3356821325fa020fa5f2af"
+    },
+    {
+      "path": "functions/src/users/update-wallet-address.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "0bdd2efa90abd00bfe69dd8e82f6863a322b03e14a2b2acb649e913f8aeb3099"
+    },
+    {
+      "path": "functions/src/users/get-recent-recipients.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "77c1d23248191185e60bb4027a1096c604e5491fb700daf49d41d3515be7d135"
+    },
+    {
+      "path": "functions/src/users/get-user-activity.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "970f49b50039f377f89c00a15f167fb5862bafe15210768d7a5bc2f2fad6d7e3"
+    },
+    {
+      "path": "functions/src/users/update-username.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "ebfffb01881df455e47eeee077e19a11d211f31e151946b81e3a46882856e501"
+    },
+    {
+      "path": "functions/src/users/delete-user-account.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "5b4efc5f2bfc341ab26bcbcab0525be3dc9f3268cc5c360d8690766655320c59"
+    },
+    {
+      "path": "functions/src/users/create-server-wallet.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "fca592818e549a82a82e88a5e9c4683d96e19e9fe131220eac168cdf1b9b082f"
+    },
+    {
+      "path": "functions/src/solana/execute-jupiter-swap.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "235683c2349387d764914dad1411aed142fdf8fa9f97313f9964c972470befc1"
+    },
+    {
+      "path": "functions/src/solana/get-jupiter-swap-transaction.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "9551ccecfe2be9eea96b590eaf7d4e39982d3ddbd08b7b8067e4ecc739da739f"
+    },
+    {
+      "path": "functions/src/solana/transaction-builder.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "4710680c1321a2d0a91898c7c187b862b3845af550eadb62ab84c5f2b485f5c9"
+    },
+    {
+      "path": "functions/src/solana/jupiter-client.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "5f8c9c3f66c64dca75cb459adfde90ca1e37df31256bccec4cdae65edc73e12a"
+    },
+    {
+      "path": "functions/src/solana/get-jupiter-quote.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "773be1dcc80ad6d736e5882555815cf89fc830ef990d57642fa006d7469d3a7d"
+    },
+    {
+      "path": "functions/src/config/privy-config.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "56d2f0e9862502e26b8b14edf3a2905fc8498a23cfbf39de44dffcb994e34e9f"
+    },
+    {
+      "path": "functions/src/config/solana-config.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "a20d834d78bd875570f5a8a021b0eda1f6f8ebb20e9f1a430e6b0936f8411451"
+    },
+    {
+      "path": "functions/src/middleware/transaction-security.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "49c5b99a6d122e47ce97c098bc26444d78878bf7bf312e886e6fb6cff5415534"
+    },
+    {
+      "path": "functions/src/middleware/delegation-validator.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "5f2e223da7ce663e1f620f74831bcd2020c2b5d6fa74c01778780ccff1de846d"
+    },
+    {
+      "path": "functions/src/middleware/recipients-tracker.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "06413eb9ef17d3ad79844b4ba83e93aabe8089ecf9346e4761240296e4bcd62e"
+    },
+    {
+      "path": "functions/src/utils/get-fee-payer-address.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "e506880c9d51eeb3b32e94c21850de6e11f48bfd4e5a7a85710c9372da97d62d"
+    },
+    {
+      "path": "functions/src/utils/helius-webhook-manager.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "961d13252bd8c79485d07b80c08c5570123db8440607e52ff945e4515faf37e6"
+    },
+    {
+      "path": "functions/src/utils/discord-alerts.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "baf01b18a899875fb454c30c5578a759e5a6b85f29f4de25822001cbd3142eac"
+    },
+    {
+      "path": "functions/src/utils/push-notifications.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "24320205f58708397e3a15f36ef16c06848fab04319031f0c8edd5db5b1f37fc"
+    },
+    {
+      "path": "functions/src/utils/telegram-alerts.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "38be93d2da2d5871a2563237a3626d51a385e11ac3806af848cbb6c41b261e91"
+    },
+    {
+      "path": "functions/src/utils/balance-tracker.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "4024d8c35b909e694450ff98583167e156063eda377f8c9b714194a673c00eba"
+    },
+    {
+      "path": "functions/src/utils/solana-utils.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "9fffa0c1ceb48e170d5d4262897dbc46afb3af43f2a0028328852c0894a9582b"
+    },
+    {
+      "path": "functions/src/audit/auto-swap-logger.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "75851c2c6bec17c20dc42806232512732890adbb4b516f72d00411f0cde2d5a0"
+    },
+    {
+      "path": "functions/src/privy-firebase-bridge.ts",
+      "source": "local-surviving-payments",
+      "sha256_original": "44ba27024dc79e81e7e965644ccf6731fe37d85c273edb3076e1c58c7c3eaf47"
+    }
+  ]
+}
