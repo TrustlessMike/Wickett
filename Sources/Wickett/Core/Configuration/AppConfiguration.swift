@@ -22,6 +22,23 @@ enum AppConfiguration {
         static let appName = "Wickett"
     }
 
+    // MARK: - Backend Availability
+
+    /// True when an owner-supplied GoogleService-Info.plist was bundled at build time.
+    static var hasFirebaseConfig: Bool {
+        Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist") != nil
+    }
+
+    /// True when the Privy placeholders above have been replaced.
+    static var hasPrivyConfig: Bool {
+        !Privy.appId.hasPrefix("YOUR_") && !Privy.clientId.hasPrefix("YOUR_")
+    }
+
+    /// When false, the app shows `BackendSetupView` and never initializes Firebase or Privy.
+    static var isBackendConfigured: Bool {
+        hasFirebaseConfig && hasPrivyConfig
+    }
+
     // MARK: - Legal & Support URLs
     enum Legal {
         static let termsOfServiceURL = "https://wickett.app/terms"

@@ -4,9 +4,11 @@ import FirebaseAuth
 
 @main
 struct WickettApp: App {
-    @StateObject private var authCoordinator = AuthCoordinator.shared
-
     init() {
+        // Without owner-supplied Firebase and Privy configuration, skip SDK setup:
+        // FirebaseApp.configure() aborts when GoogleService-Info.plist is missing.
+        guard AppConfiguration.isBackendConfigured else { return }
+
         // Initialize Firebase
         FirebaseApp.configure()
 
@@ -17,12 +19,26 @@ struct WickettApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(authCoordinator)
-                .onOpenURL { url in
-                    handleDeepLink(url)
-                }
+            if AppConfiguration.isBackendConfigured {
+                ConfiguredRootView()
+            } else {
+                BackendSetupView()
+            }
         }
+    }
+}
+
+/// Root for a configured build. Holds the auth singleton so it (and the Firebase/Privy
+/// services behind it) is only created once configuration is known to be present.
+private struct ConfiguredRootView: View {
+    @StateObject private var authCoordinator = AuthCoordinator.shared
+
+    var body: some View {
+        ContentView()
+            .environmentObject(authCoordinator)
+            .onOpenURL { url in
+                handleDeepLink(url)
+            }
     }
 
     private func handleDeepLink(_ url: URL) {

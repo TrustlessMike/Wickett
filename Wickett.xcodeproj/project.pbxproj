@@ -76,6 +76,7 @@
 		B1E1DA3ECC707DC1E6A3AE41 /* PaymentRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15BBFA8C8DA8F80491FDA24 /* PaymentRequestViewModel.swift */; };
 		BAE843962B46AB1549E66BF0 /* CoinbaseOfframpSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1721A431D93FB596C22697 /* CoinbaseOfframpSession.swift */; };
 		C0105B7FBF7F123DBEA68F10 /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29164CC4BB0309027D011918 /* OnboardingManager.swift */; };
+		BKSETUPBF0001 /* BackendSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BKSETUPFR0001 /* BackendSetupView.swift */; };
 		C640C3B86B37A7D6259D2E04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8032420D0D7EAF449907546D /* ContentView.swift */; };
 		C723D698E19F4892EDF773D2 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0EB9DDC4A4D25B7B39D87F /* RequestService.swift */; };
 		CF85731AAD3A8CAA0A546473 /* OnboardingCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780CBF622E43F77CBC941C0 /* OnboardingCoordinatorView.swift */; };
@@ -145,6 +146,7 @@
 		75F316C573ED4DD587DAC594 /* CoinbaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinbaseService.swift; sourceTree = "<group>"; };
 		76A7AA119EE0A053597A5E60 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
 		802ED00BA20CC0267CE9A545 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		BKSETUPFR0001 /* BackendSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendSetupView.swift; sourceTree = "<group>"; };
 		8032420D0D7EAF449907546D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8484158CEE852BA9AE74CDDB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		87E00C3C8B418B862B13C4C4 /* ActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityService.swift; sourceTree = "<group>"; };
@@ -633,6 +635,7 @@
 		DFC6C4F26C45F2D239627314 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				BKSETUPFR0001 /* BackendSetupView.swift */,
 				8032420D0D7EAF449907546D /* ContentView.swift */,
 				D9D1F84C9AF7624DD1E58464 /* WickettApp.swift */,
 			);
@@ -854,6 +857,7 @@
 				0336144CBB5F13E0DE176731 /* CoinbaseSafariView.swift in Sources */,
 				99477EB0D2CA5C0EF8656B82 /* CoinbaseService.swift in Sources */,
 				73E83BD903F3E9A1D5F45A62 /* ConfettiView.swift in Sources */,
+				BKSETUPBF0001 /* BackendSetupView.swift in Sources */,
 				C640C3B86B37A7D6259D2E04 /* ContentView.swift in Sources */,
 				634089073C774F4EA0B09C8D /* CreateRequestView.swift in Sources */,
 				E7F30071A6316BA3D53CF50D /* CustomTabBar.swift in Sources */,
