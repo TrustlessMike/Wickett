@@ -1,5 +1,5 @@
 {
-  "originHash" : "9daddc2d1a2a933e086e263cd880a192c44cde62c3f7ece11350ef8d3fb2bd87",
+  "originHash" : "ae0812c31e92db9b4c1eae2f7574545fbc979485d46cc3e7b1b1c397bbf7fa99",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -139,10 +139,10 @@
     {
       "identity" : "solana-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/TrustlessMike/solana-swift.git",
+      "location" : "https://github.com/p2p-org/solana-swift.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "88241d070e65fd70ae7dd8e315b8c7234e852237"
+        "revision" : "010a3e3a4cb583ccc3150a04d4270ad37d784ee8",
+        "version" : "5.0.0"
       }
     },
     {

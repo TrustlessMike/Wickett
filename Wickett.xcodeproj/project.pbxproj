@@ -1094,10 +1094,10 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		2B15A8B7F96DCE8497E6BDE4 /* XCRemoteSwiftPackageReference "solana-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/TrustlessMike/solana-swift.git";
+			repositoryURL = "https://github.com/p2p-org/solana-swift.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
 		71BADFF4BE23345EBE9B1A85 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
