@@ -29,7 +29,6 @@
 		3D3F1B1F5825C5A8D2176D14 /* TransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70E0EA49E7F5FB322010AF /* TransactionState.swift */; };
 		3D94B4E32292747882D517E0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB8D2902E78F8B496FB91C /* User.swift */; };
 		LAUNCHSB001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = LAUNCHSBREF1 /* LaunchScreen.storyboard */; };
-		GOOGLESI001 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = GOOGLESIREF1 /* GoogleService-Info.plist */; };
 		3FA9E0ED969451522212AE73 /* CoinbaseOnrampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8C793C688337CE94FBD5 /* CoinbaseOnrampViewModel.swift */; };
 		4022C57D76DF72569101EA3C /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A7AA119EE0A053597A5E60 /* AccountBalance.swift */; };
 		427423239ED8D8DE45AB8937 /* HeliusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91EA59B51A0F45BC0B3548 /* HeliusService.swift */; };
@@ -724,6 +723,7 @@
 				BED19331AA4974766F1BDCDC /* Sources */,
 				089BBD921B5AC09D2A90F254 /* Resources */,
 				233B4222A59A916F20666CEB /* Frameworks */,
+				COPYGSI001 /* Copy GoogleService-Info.plist If Present */,
 				SIGNBUNDLES001 /* Sign Embedded Bundles */,
 			);
 			buildRules = (
@@ -783,13 +783,31 @@
 			files = (
 				8EC988A17049EEA49662A455 /* Assets.xcassets in Resources */,
 				LAUNCHSB001 /* LaunchScreen.storyboard in Resources */,
-				GOOGLESI001 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		COPYGSI001 /* Copy GoogleService-Info.plist If Present */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info.plist If Present";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# GoogleService-Info.plist is gitignored and owner-supplied. Bundle it when present;\n# without it the app shows its backend setup screen (see AppConfiguration.isBackendConfigured).\nSRC=\"${PROJECT_DIR}/Resources/GoogleService-Info.plist\"\nDST=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleService-Info.plist\"\nif [ -f \"${SRC}\" ]; then\n    cp \"${SRC}\" \"${DST}\"\nelse\n    rm -f \"${DST}\"\n    echo \"note: Resources/GoogleService-Info.plist not found; building without Firebase configuration; the app will show its backend setup screen.\"\nfi\n";
+		};
 		SIGNBUNDLES001 /* Sign Embedded Bundles */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
