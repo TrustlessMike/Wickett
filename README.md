@@ -16,7 +16,12 @@ Mimic's prediction, copy-trading, tracking dashboard and real-time tracker are o
 
 ## Development status
 
-The recovered backend passes `npm run build` (TypeScript checking only). All 86 Swift files pass syntax parsing. No end-to-end transfer, provider connection, deployment, or full iOS build has been verified in this recovery.
+Verified on November 2, 2026:
+
+- **iOS simulator build:** `xcodebuild -project Wickett.xcodeproj -scheme Wickett -destination 'generic/platform=iOS Simulator' build` succeeds with Xcode 27.2 (iOS Simulator 27.2 SDK, arm64 and x86_64) with no Firebase or Privy configuration present. This needed two project fixes: the `solana-swift` dependency now points at upstream `p2p-org/solana-swift` 5.0.0, because the historical fork no longer exists, and `GoogleService-Info.plist` is bundled only when present.
+- **Backend:** `npm ci --ignore-scripts && npm run build` passes (TypeScript checking only) on host Node 26.11.1.
+
+Not yet verified: launching the app in a simulator, because the build host's CoreSimulator was out of date for Xcode 27.2. A device build, signing, provider connections, sign-in, deployment, and any end-to-end request or transfer have not been verified either. The declared Node 20 runtime has not been separately verified.
 
 The source still contains historical mainnet-oriented logic. Configure an isolated test project and review the recovered transaction and authorization paths before running services. No deployment configuration or operational credentials are supplied.
 
@@ -34,7 +39,9 @@ npm run build
 
 ### iOS
 
-Open `Wickett.xcodeproj`. Supply your own Firebase configuration using `Resources/GoogleService-Info.plist.example` as a field guide, set Privy values in `AppConfiguration.swift`, and select your own bundle identifier and signing team. The historical `Package.swift` is preserved for reference; the Xcode project is the recovery entry point. SDK compatibility and a full build remain to be checked.
+Open `Wickett.xcodeproj`. Supply your own Firebase configuration at `Resources/GoogleService-Info.plist`, using `Resources/GoogleService-Info.plist.example` as a field guide. Set the Privy app and client IDs in `AppConfiguration.swift` and the matching `privy-` URL scheme in `Resources/Info.plist`. Select your own bundle identifier and signing team. Package versions are pinned in `Wickett.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved`. The historical `Package.swift` is preserved for reference; the Xcode project is the recovery entry point.
+
+Until both the Firebase plist and the Privy values are supplied, the app is written to skip Firebase and Privy setup and show a setup screen listing what is missing (`BackendSetupView`). That path builds but has not yet been run in a simulator.
 
 ## License
 
