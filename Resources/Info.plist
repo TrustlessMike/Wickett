@@ -21,7 +21,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>privy-cmh5i82000072jl0cixsq20k7</string>
+				<string>privy-YOUR-PRIVY-APP-ID</string>
 				<string>wickett</string>
 			</array>
 		</dict>

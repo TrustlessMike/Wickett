@@ -46,8 +46,8 @@ class HybridPrivyService: ObservableObject {
         #endif
 
         let config = PrivyConfig(
-            appId: "cmh5i82000072jl0cixsq20k7",
-            appClientId: "client-WY6SJ3DpaUXxFWCWdTG6FANZ2zzDxkaF9kUWjZTqDM5RG",
+            appId: AppConfiguration.Privy.appId,
+            appClientId: AppConfiguration.Privy.clientId,
             loggingConfig: loggingConfig
         )
 
